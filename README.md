@@ -1,24 +1,24 @@
 # cse210-03
-Repo for the Jump Game assignment. 
-Group 10
-Members: Chad, Johnathan, Tyler, Surim
+Repo for the Jump Game assignment.    
+Group 10   
+Members: Chad, Johnathan, Tyler, Surim   
 
-Main File
+Main File   
 
-Director Class
+Director Class   
     Manages the game
     gets user input
     do output of jumper
     
-Jumper Class
+Jumper Class   
     Manages the jumper and calls display
 
-Word Class
+Word Class   
     Includes list of words
     random choosing of a list item 
     transfer to 'jumper class'
 
-Terminal Service Class
+Terminal Service Class   
     Prints the jumper
     
 
