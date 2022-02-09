@@ -1,10 +1,9 @@
-
+from game.director import Director
 
 class Jumper:
 
     def __init__ (self):
-        self._score = 0
-        
+        pass
     def _print_jumper(self):
         print_list = [
         [" ____"],
@@ -15,6 +14,7 @@ class Jumper:
         [" /|\\"],
         [" /\\"]]
 
-        for i in print_list[self._score:len(print_list)]:
+        for i in print_list[Director.return_score():len(print_list)]:
             print(*i, sep="")
+
 
