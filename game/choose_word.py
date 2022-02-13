@@ -24,6 +24,10 @@ class Call_word:
                 if self._split_word[i] == guess:
                     self._current_word[i] = guess
             return True
-        return False
+        elif guess not in self._split_word:
+            print("Wrong!")
+            return False
+        else:
+            return False
        
         
